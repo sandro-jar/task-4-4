@@ -1,0 +1,460 @@
+@font-face {
+  font-family: "Andada Pro" serif;
+  src: url(../fonts/AndadaPro-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Andada Pro" serif;
+  src: url(../fonts/AndadaPro-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Andada Pro" serif;
+  src: url(../fonts/AndadaPro-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Andada Pro" serif;
+  src: url(../fonts/AndadaPro-SemiBold.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FiraGO";
+  src: url(../fonts/FiraGO-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FiraGO";
+  src: url(../fonts/FiraGO-Book.ttf);
+  font-weight: 350;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FiraGO";
+  src: url(../fonts/FiraGO-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FiraGO";
+  src: url(../fonts/FiraGO-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-color: #ffffff;
+}
+nav li,
+nav a {
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  display: inline-block;
+
+  text-decoration: none;
+  list-style: none;
+
+  color: black;
+}
+
+nav ul {
+  margin: 30px 0px 30px 126px;
+}
+.nav-logo {
+  width: 109px;
+  margin-left: 126px;
+}
+.nav-home {
+  margin-left: 270px;
+}
+
+.profil-icon {
+  margin-left: 350px;
+  vertical-align: -13.5px;
+  width: 2px;
+}
+
+.nav-about {
+  padding-left: 52px;
+}
+.nav-blog {
+  padding: 0px 52px 0px 52px;
+}
+nav {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.main-title {
+  font-family: "FiraGO";
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 700;
+  margin: 72px 518px 63px 518px;
+}
+
+.product-column {
+  display: inline-block;
+  margin-left: 105px;
+  width: 333px;
+}
+.product-section {
+  margin-left: 126px;
+}
+.product-card {
+  border-radius: 2px;
+  border: 1px solid black;
+
+  padding: 15px 15px 25px 15px;
+  width: 333px;
+  height: 487px;
+}
+.product-card img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.product-card h3 {
+  font-weight: 700;
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 24px;
+  margin: 15px 0px;
+}
+.product-card p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+
+  line-height: 21px;
+  letter-spacing: 0.03em;
+}
+.product-card h3,
+.product-card p {
+  margin-left: 18px;
+}
+
+.card-footer button {
+  font-family: "Poppins";
+
+  font-weight: 400;
+  font-style: normal;
+  background-color: #ffffff;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 6px 26.23px 6px 26.23px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  margin-top: 29px;
+  margin-bottom: 62px;
+}
+.card-footer {
+  text-align: right;
+}
+.product-column ul {
+  list-style: disc;
+  font-family: "Open Sans";
+
+  font-size: 14px;
+  line-height: 30px;
+  vertical-align: top;
+}
+h4 {
+  margin: 39px 0px 61px 1178px;
+  font-family: "FiraGO";
+}
+h4 a {
+  font-family: FiraGO;
+  font-size: 16px;
+  font-weight: 350;
+  line-height: 21px;
+
+  color: black;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.contact-title {
+  margin: 147px 610px 119px 610px;
+  color: #7d0000;
+
+  font-family: "Andada Pro";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0.03em;
+}
+.contact-section div {
+  display: inline-block;
+}
+.contact-list {
+  margin-right: 324px;
+  color: #0b253e;
+}
+.contact-list address {
+  text-decoration: underline;
+}
+.contact-card address {
+  padding-bottom: 34px;
+}
+.contact-card a {
+  color: #0b253e;
+  text-decoration: none;
+}
+.contact-card {
+  margin-left: 280px;
+  font-family: "Andada Pro";
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.contact-map iframe {
+  margin: 144px 266px 193px 266px;
+  width: 908px;
+  height: 423px;
+  border-radius: 15px;
+}
+
+.about-title {
+  margin: 134px 524px 115px 524px;
+
+  color: #7d0000;
+  font-family: "Andada Pro";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0.03em;
+}
+.about-content div {
+  display: inline-block;
+}
+.about-content p {
+  margin: 0px 59px 89px 126px;
+  width: 650px;
+  height: 205px;
+  font-family: "Andada Pro";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: 0.03em;
+}
+.about-p {
+  vertical-align: top;
+}
+.about-content address {
+  text-decoration: underline;
+  font-family: " Andada Pro";
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  margin: 0px 74px 418px 434px;
+}
+.about-img {
+  margin-top: 70px;
+}
+
+.blog-section div p {
+  width: 850px;
+  padding: 0px 32px 12px 36px;
+  font-family: "FiraGO";
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 17px;
+}
+.text-box h3 {
+  padding-left: 36px;
+  padding-bottom: 32px;
+  padding-top: 36px;
+  font-family: "FiraGO";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+
+  text-align: left;
+}
+.blog-section {
+  height: 228px;
+}
+.blog-section img {
+  border-radius: 30px 0px 0px 30px;
+  margin-right: 22px;
+  margin-left: 94px;
+}
+.text-box {
+  vertical-align: top;
+  background-color: #e5ebe5;
+  height: 228px;
+  width: 918px;
+  border-radius: 10px;
+}
+.blog-button {
+  font-family: "FiraGO";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  text-decoration: underline;
+  padding: 12px 27px 12px 27px;
+  margin-left: 1156px;
+  margin-top: 14px;
+  margin-bottom: 63px;
+}
+.blog-section div {
+  display: inline-block;
+}
+.blog-middle li {
+  display: inline-block;
+  font-family: "FiraGO";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+
+  padding-right: 68px;
+}
+.blog-middle ul {
+  margin: 80px 445px 68px 445px;
+}
+.blog-upper i {
+  padding: 13.24px 27.42px 16.42px 15.25px;
+  display: inline-block;
+}
+.blog-upper input {
+  border: 0px none transparent;
+}
+
+.blog-upper li {
+  display: inline-block;
+}
+.blog-upper h1 {
+  font-family: "FiraGO";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  margin: 47px 433px 93px 94px;
+}
+.blog-upper form {
+  height: 47px;
+  width: 369px;
+  border: 1px solid #000000;
+  border-radius: 2px;
+}
+
+.bio-upper div {
+  display: inline-block;
+}
+.bio-upper {
+  margin: 169px 790px 96.19px 206px;
+}
+.bio-titles {
+  vertical-align: top;
+  margin-top: 52px;
+}
+
+.bio-title {
+  margin-left: 68px;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0.03em;
+  padding-bottom: 14px;
+  color: #000000;
+}
+.bio-2title {
+  margin-left: 68px;
+  color: #546ccc;
+  font-family: "Poppins";
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+}
+.bio-3title {
+  margin: 0px 1570px 58px 221px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  padding: 16px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.bio-footer div {
+  display: inline-block;
+  margin: 0px 0px 0px 237px;
+}
+.bio-1-list li {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  padding-bottom: 30px;
+}
+.bio-2-list li {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  padding-bottom: 30px;
+}
+.bio-article button {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  background-color: #87ac87;
+  border: 0px solid transparent;
+
+  border-radius: 10px;
+  padding: 16px 32px 16px 32px;
+  margin: 0px 251px 162px 956px;
+}
